@@ -5,118 +5,118 @@ import java.util.Scanner;
 public class ejer{
         public static void main(String[] args) {
         Scanner src =  new Scanner(System.in);
-        // //Ejercisio1
+        //Ejercisio1
 
-        // int[] num = new int[10];
-        // for (int i = 0; i < 10; i++) {
-        //     num[i]=i;
-        //     System.out.println("["+num[i]+"]");
-        // }
-        // //Ejercisio 2 
-        // double []numPrimos= {2.0,3.0,5.0,7.0,11.0,13.0,17.0,19.0,23.0,29.0};
-        // for (int e = 0; e < 10; e++) {
-        //     System.out.println("["+numPrimos[e]+"]");
-        // }
-        // // Ejercisio 3
+        int[] num = new int[10];
+        for (int i = 0; i < 10; i++) {
+            num[i]=i;
+            System.out.println("["+num[i]+"]");
+        }
+        //Ejercisio 2 
+        double []numPrimos= {2.0,3.0,5.0,7.0,11.0,13.0,17.0,19.0,23.0,29.0};
+        for (int e = 0; e < 10; e++) {
+            System.out.println("["+numPrimos[e]+"]");
+        }
+        // Ejercisio 3
 
-        // int [][] arrayBi =new int[10][10];
-        // // Ejercisio 4
-        // int [][][] arrayMulti =new int[10][10][10];
-        // // Lectura y Escritura
-        //     // Ejercisio1
-        //     int[]array1=new int[10];
-        //     for (int i = 0; i < 10; i++) {
-        //         System.out.println("Ingrese el numero en la posicion "+ i);
-        //         array1[i]=src.nextInt();
-        //     }
-        //     for (int i = 0; i < 10; i++) {
-        //         System.out.print("["+array1[i]+"]  ,");
-        //     }
-        //     System.out.println("  ");
-        //     //Ejercisio 2 
-        //     double []array2=new double [10];
-        //     for (int i = 0; i < 10; i++) {
-        //         System.out.println("Ingrese el numero en la posicion "+ i);
-        //         array2[i]=src.nextInt();
-        //     }
-        //     for (int i = 0; i < 10; i++) {
-        //         System.out.print("["+array2[i]+"]  ,");
-        //     }
-        //     System.out.println("  ");
-        //     // Ejercisio 3
-        //     char[] arrayChar=new char[10];
-        //     for (int i = 0; i < 10; i++) {
-        //         System.out.println("Ingrese un caracter en la posicion "+i);
-        //         arrayChar[i]=src.next().charAt(0);
-        //     }
-        //     for (int i = 0; i <   10; i++) {
-        //         System.out.print("["+arrayChar[i]+"]  ,");
-        //     }
-        //     System.out.println("  ");
+        int [][] arrayBi =new int[10][10];
+        // Ejercisio 4
+        int [][][] arrayMulti =new int[10][10][10];
+        // Lectura y Escritura
+            // Ejercisio1
+            int[]array1=new int[10];
+            for (int i = 0; i < 10; i++) {
+                System.out.println("Ingrese el numero en la posicion "+ i);
+                array1[i]=src.nextInt();
+            }
+            for (int i = 0; i < 10; i++) {
+                System.out.print("["+array1[i]+"]  ,");
+            }
+            System.out.println("  ");
+            //Ejercisio 2 
+            double []array2=new double [10];
+            for (int i = 0; i < 10; i++) {
+                System.out.println("Ingrese el numero en la posicion "+ i);
+                array2[i]=src.nextInt();
+            }
+            for (int i = 0; i < 10; i++) {
+                System.out.print("["+array2[i]+"]  ,");
+            }
+            System.out.println("  ");
+            // Ejercisio 3
+            char[] arrayChar=new char[10];
+            for (int i = 0; i < 10; i++) {
+                System.out.println("Ingrese un caracter en la posicion "+i);
+                arrayChar[i]=src.next().charAt(0);
+            }
+            for (int i = 0; i <   10; i++) {
+                System.out.print("["+arrayChar[i]+"]  ,");
+            }
+            System.out.println("  ");
    
-        //     // Ejercisio 4
-        //         boolean [] arrayBolean= new boolean[10];
-        //     for (int i = 0; i < 10; i++) {
-        //         System.out.println("Ingrese true o false en la  posicion "+i);
-        //         arrayBolean[i]=src.nextBoolean();
-        //     }
-        //     for (int i = 0; i <   10; i++) {
-        //         System.out.print("["+arrayBolean[i]+"]  ,");
-        //     }
-        //     System.out.println("  ");
+            // Ejercisio 4
+                boolean [] arrayBolean= new boolean[10];
+            for (int i = 0; i < 10; i++) {
+                System.out.println("Ingrese true o false en la  posicion "+i);
+                arrayBolean[i]=src.nextBoolean();
+            }
+            for (int i = 0; i <   10; i++) {
+                System.out.print("["+arrayBolean[i]+"]  ,");
+            }
+            System.out.println("  ");
             
-        //     // Operaciones Aritmeticas
-        //         //Ejercio 1
+            // Operaciones Aritmeticas
+                //Ejercio 1
             
-        //     int [] arraySuma= {1,2,3,4,5,6,7,8,9,10};
-        //     int suma=0;
-        //     for (int i = 0; i < 10 ; i++) {
-        //         System.out.print("suma= "+ arraySuma[i]+" + ");
-        //         suma=suma+arraySuma[i];
+            int [] arraySuma= {1,2,3,4,5,6,7,8,9,10};
+            int suma=0;
+            for (int i = 0; i < 10 ; i++) {
+                System.out.print("suma= "+ arraySuma[i]+" + ");
+                suma=suma+arraySuma[i];
             
-        //     }    System.out.println(" ");
-        //     System.out.println("La suma del array es :"+ suma);
-        //     // Ejercisio 2
-        //     int [] arrayMult= new int[10];
-        //     int mult;
-        //     System.out.println("Array ");
-        //     for (int i = 0; i < arrayMult.length; i++) {
-        //         System.out.println("Cargar el elemento "+ i);
-        //         arrayMult[i]=src.nextInt();
+            }    System.out.println(" ");
+            System.out.println("La suma del array es :"+ suma);
+            // Ejercisio 2
+            int [] arrayMult= new int[10];
+            int mult;
+            System.out.println("Array ");
+            for (int i = 0; i < arrayMult.length; i++) {
+                System.out.println("Cargar el elemento "+ i);
+                arrayMult[i]=src.nextInt();
 
            
-        //     }
-        //     System.out.println("Ingrese por que numero desea multiplicar los elementos del Array ");
-        //     mult=src.nextInt();
-        //     for (int i : arrayMult) {
-        //         i=i*mult;
-        //         System.out.println(i);
-        //     }
-        //     //Ejercisios  3.	Ordenar un array de 10 enteros de menor a mayor.
-        //         int []array=new int[10];
+            }
+            System.out.println("Ingrese por que numero desea multiplicar los elementos del Array ");
+            mult=src.nextInt();
+            for (int i : arrayMult) {
+                i=i*mult;
+                System.out.println(i);
+            }
+            //Ejercisios  3.	Ordenar un array de 10 enteros de menor a mayor.
+                int []array=new int[10];
 
-        //         System.out.println("Ingrese los numeros del Array");
-        //         for (int i = 0; i < array.length; i++) {
-        //             System.out.println("Ingrese el Elemento "+ i);
-        //             array[i]=src.nextInt();
-        //         }
-        //         Arrays.sort(array);
-        //         for (int i : array) {
-        //             System.out.println(i);
-        //         };
+                System.out.println("Ingrese los numeros del Array");
+                for (int i = 0; i < array.length; i++) {
+                    System.out.println("Ingrese el Elemento "+ i);
+                    array[i]=src.nextInt();
+                }
+                Arrays.sort(array);
+                for (int i : array) {
+                    System.out.println(i);
+                };
    
         
-        //     // Ejercisio 4
-        //     String []arrayString= new String[10];
-        //      for (int i = 0; i < arrayString.length; i++) {
-        //             System.out.println("Ingrese el Elemento "+ i);
-        //             arrayString[i]=src.nextLine();
-        //         }
-        //         Arrays.sort(arrayString);
-        //     System.out.println(" Array ");
-        //         for (String i : arrayString) {
-        //             System.out.println("["+i+"]");
-        //         };
+            // Ejercisio 4
+            String []arrayString= new String[10];
+             for (int i = 0; i < arrayString.length; i++) {
+                    System.out.println("Ingrese el Elemento "+ i);
+                    arrayString[i]=src.nextLine();
+                }
+                Arrays.sort(arrayString);
+            System.out.println(" Array ");
+                for (String i : arrayString) {
+                    System.out.println("["+i+"]");
+                };
             // Ejercisios Adicionales 
            
             int [] ejerAdi= new int[10];
