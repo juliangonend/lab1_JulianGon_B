@@ -37,7 +37,7 @@ public class Main {
     Rectangulo rectangulo= new Rectangulo(12,32);
     rectangulo.impRentan();
     //Coche
-        Coche clio= new Coche("renault","clio",2013) ;
+        Coche clio=new Coche("renault", "clio", 2013);
         clio.imprCoche();
         clio.acelerar();
         clio.acelerar();
